@@ -1,0 +1,23 @@
+{
+    "wikipediaPage": {
+        "url": "https://en.wikipedia.org/wiki/Smartphone",
+        "data": {
+            "mobileList": {
+                "selector": ".wikitable.sortable.jquery-tablesorter:nth(1)",
+                "data": {
+                    "item": {
+                        "selector": "td a",
+                        "data": {
+                            "link": {
+                                "selector": "td a"
+                            },
+                            "name": {
+                                "selector": "td a"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
